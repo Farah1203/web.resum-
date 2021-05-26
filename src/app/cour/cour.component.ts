@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cour.component.css']
 })
 export class CourComponent implements OnInit {
+name="  cour ";
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
+ Commencer (myname:String){
+   alert('Commencer'+myname);
+ }
+ 
 }

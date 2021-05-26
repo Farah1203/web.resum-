@@ -10,6 +10,8 @@ export class HtmlComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
+   
 
 }
