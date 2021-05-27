@@ -7,6 +7,7 @@ import { CssComponent } from './css/css.component';
 import { HomeComponent } from './home/home.component';
 import { HtmlComponent } from './html/html.component';
 import { JsComponent } from './js/js.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path:'js',
     component:JsComponent
+  },
+  {
+    path:'navbar',
+    component:NavbarComponent
   }
 ];
 

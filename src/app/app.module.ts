@@ -10,6 +10,8 @@ import { CourComponent } from './cour/cour.component';
 import { HtmlComponent } from './html/html.component';
 import { CssComponent } from './css/css.component';
 import { JsComponent } from './js/js.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { JsComponent } from './js/js.component';
     CourComponent,
     HtmlComponent,
     CssComponent,
-    JsComponent
+    JsComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
